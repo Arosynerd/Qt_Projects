@@ -250,6 +250,8 @@ windeployqt yourproject.exe
 
 此处加入依赖文所在的目录
 
-![image-2025-03-08 115106](README.assets/image-2025-03-08 115106.png)
+![](README.assets/image-2025-03-08 115106.png
+
+![](README.assets/image.png)
 
 然后proccess。
