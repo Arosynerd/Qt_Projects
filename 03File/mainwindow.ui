@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_F">
+    <property name="title">
+     <string>文件(&amp;F)</string>
+    </property>
+    <addaction name="action_S"/>
+    <addaction name="action_O"/>
+    <addaction name="action_N"/>
+    <addaction name="action_S_2"/>
+   </widget>
+   <widget class="QMenu" name="menu_B">
+    <property name="title">
+     <string>构建(&amp;B)</string>
+    </property>
+   </widget>
+   <addaction name="menu_F"/>
+   <addaction name="menu_B"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_S">
+   <property name="text">
+    <string>另存为(&amp;S)</string>
+   </property>
+  </action>
+  <action name="action_O">
+   <property name="text">
+    <string>打开(&amp;O)</string>
+   </property>
+  </action>
+  <action name="action_N">
+   <property name="text">
+    <string>新建(&amp;N)</string>
+   </property>
+  </action>
+  <action name="action_S_2">
+   <property name="text">
+    <string>保存(&amp;S)</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
