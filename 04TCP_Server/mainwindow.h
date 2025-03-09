@@ -7,6 +7,13 @@
 #include <QTimer>
 #include <QDateTime>
 
+#include <tablewindow.h>
+
+#include <QSqlDatabase>
+#include <QSqlQuery>
+#include <QSqlTableModel>
+#include <QSqlRecord>
+#include <QMessageBox>
 
 namespace Ui {
 class MainWindow;
@@ -43,6 +50,11 @@ private slots:
 
     void on_led_OFF_clicked();
 
+    void on_time_btn_2_released();
+
+
+    void on_add_btn_clicked();
+
 private:
     Ui::MainWindow *ui;
     int Client_num=0;
@@ -55,6 +67,9 @@ private:
 
     QTimer timer;//定时器
     QDateTime DateTime;
+
+    QSqlDatabase db;
+    QSqlTableModel *model;
 
 };
 
