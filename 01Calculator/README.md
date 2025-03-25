@@ -230,6 +230,8 @@ this->setWindowIcon(QIcon("://favice.ico"));
 
 ### Package
 
+#### 环境需要：Enigma Virtual Box和QT 命令行
+
 ##### 1.在release下生成
 
 ![image-20250308114417513](README.assets/image-20250308114417513.png)
