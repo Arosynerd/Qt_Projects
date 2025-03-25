@@ -83,4 +83,4 @@ void Widget::serilaPortReadyRead_Slot(){
 
 ### OVERVIEW
 
-![屏幕截图 2025-03-25 234918](README.assets/屏幕截图 2025-03-25 234918.png)
+![qwe](README.assets/qwe.png)
