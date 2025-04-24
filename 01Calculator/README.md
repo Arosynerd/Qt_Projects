@@ -204,6 +204,10 @@ void Widget::on_DeleteButton_released()
 
 ## Operate Note
 
+## 资源管理
+
+图片资源都是这么管理的，可以使用相对路径
+
 ### Add Icon
 
 #### 1.创建一个资源管理
@@ -227,6 +231,23 @@ void Widget::on_DeleteButton_released()
 ```
 this->setWindowIcon(QIcon("://favice.ico"));
 ```
+
+### 补充
+
+#### 添加背景图的实现
+
+使用  “：/” 表示从资源管理中获取
+
+```
+ QPixmap pix1 = QPixmap(":/image/swim.png").scaled(this->size());
+
+   //    //将图片设置为背景
+       QPalette palette;
+      palette.setBrush(QPalette::Background,QBrush(pix1));
+      this->setPalette(palette);
+```
+
+
 
 ### Package
 
